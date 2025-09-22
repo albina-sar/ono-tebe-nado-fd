@@ -261,7 +261,6 @@ h2 {
   margin: 120px 24px 120px 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
-  background-color: aquamarine;
 }
 
 .about__logo {
@@ -316,7 +315,6 @@ h2 {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-content: flex-start;
-  background-color: aqua;
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 181px;
