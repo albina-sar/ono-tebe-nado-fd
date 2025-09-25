@@ -56,7 +56,7 @@ header {
   line-height: 24px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 18px;
 }
 
@@ -73,7 +73,7 @@ header {
   min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: 1100px 757px;
-  padding: 162px 50px 50px 50px;
+  padding: 50px;
 }
 
 .overlay {
@@ -86,6 +86,7 @@ header {
 
 .cover__title {
   display: block;
+  position: relative;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -94,10 +95,13 @@ header {
   letter-spacing: 30px;
   color: white;
   z-index: 1;
-  margin-right: -30px;
   line-height: 130px;
+  margin-top: 114px;
 }
 
+.letter {
+  letter-spacing: 0;
+}
 .aligned-text_left {
   display: block;
   text-align: left;
@@ -121,9 +125,9 @@ header {
   flex-wrap: nowrap;
   width: 1000px;
   letter-spacing: 0;
-  word-spacing: 18px;
+  word-spacing: 19px;
   z-index: 1;
-  margin-top: 104px;
+  margin-top: 102px;
 }
 
 .cover__description-text {
@@ -133,6 +137,7 @@ header {
   font-size: 22px;
   color: white;
   text-transform: uppercase;
+
 }
 
 .button {
@@ -257,7 +262,7 @@ header {
   background-color: black;
   width: 240px;
   height: 240px;
-  border-radius: 120px;
+  border-radius: 50%;
   margin-left: 72px;
   margin-top: 34px;
 }
