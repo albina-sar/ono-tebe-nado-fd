@@ -72,8 +72,10 @@ header {
   width: 1100px;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
-  background-size: 1100px 757px;
+  background-size: cover;
+  background-position: center;
   padding: 50px;
+  justify-content: end;
 }
 
 .overlay {
@@ -95,11 +97,10 @@ header {
   letter-spacing: 30px;
   color: white;
   z-index: 1;
-  line-height: 130px;
-  margin-top: 114px;
+  line-height: 134px;
 }
 
-.letter {
+.no-letter-spacing {
   letter-spacing: 0;
 }
 .aligned-text_left {
@@ -127,7 +128,7 @@ header {
   letter-spacing: 0;
   word-spacing: 19px;
   z-index: 1;
-  margin-top: 102px;
+  margin-top: 98px;
 }
 
 .cover__description-text {
